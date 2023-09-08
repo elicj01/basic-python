@@ -12,3 +12,6 @@ for i in range(6, 1, -1):
     sequence.pop()
     sequence_str = ' '.join(sequence)
     print(sequence_str)
+
+if lines and lines[-1].strip() == '':
+    lines.pop()
